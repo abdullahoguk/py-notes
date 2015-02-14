@@ -4,7 +4,7 @@ import time
 print"Helloooo!"
 
 
-#__________ARITHMETIC OPs_________________________________
+#____________ARITHMETIC OPs_________________________________
 
 print 2+2   #prints 4 
 print "2+2" #prints 2+2
@@ -12,8 +12,8 @@ print "2+2 = ",2+2 #Do not forget to put COMMA
 
 print "10/3 = ", 10/3   #prints 3 
 print "10/3 = ", 10/3.0 #prints 3.33333333333
-print 2**3 #prints 8
-
+print 2**3  	#prints 8
+print 16**0.5   #prints 4
 
 x = 5.2
 y = 3.7
@@ -22,7 +22,7 @@ print x+y   #prints 8.9
 print z		#prints 8.9
 
 
-#__________STRINGS__________________________________
+#____________STRINGS__________________________________
 
 
 
@@ -43,7 +43,7 @@ print len(c) 		#prints 9
 print len("github") #prints 6
 
 
-#_______________TIME MODULE_________________
+#_________________TIME MODULE_________________
 time.sleep(2)     #Pause 2 sec
 print "asdfghjkl"
 
@@ -55,7 +55,7 @@ while x<=10:
 	time.sleep(1)
 
 
-#_____________RANGE_______________
+#_______________RANGE_______________
 print range(15) 	 #prints numbers from 0 to 15
 print range (7,53)   #prints numbers from 7 to 53
 print range (7,53,3)
