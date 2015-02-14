@@ -8,9 +8,14 @@
 7. to combine two strings, add + between them `print a+b`
 8. to get any char from a string at index `x c[x]`
 9. to import a module type `import module_name` to top    
-10.Pause amount of time, import time and type `time.sleep(5)`   
+10. Pause amount of time, import time and type `time.sleep(5)`   
+11. to get legth of string  `len(a)`
+12. to print numbers in any range 
+```
+print range(15)
+print range (start,end,increase quantity 1 by default)
 
-
+```
 
 
 
@@ -57,6 +62,8 @@ print c[1:5]      #prints from index 1 to 5 (sdfg)
 print c[:3]  	  #prints asd (starts from 0 by default)
 print c[2:]		  #prints dfghjkl (ends with end of string by default)
 
+print len(c) 		#prints 9
+print len("github") #prints 6
 
 
 #_______________TIME MODULE_________________
@@ -70,8 +77,10 @@ while x<=10:
 	x=x+1
 	time.sleep(1)
 
-
-
+#_____________RANGE_______________
+print range(15) 	 #prints numbers from 0 to 15
+print range (7,53)   #prints numbers from 7 to 53
+print range (7,53,3)
 
 
 
