@@ -36,7 +36,8 @@ print "2+2 = ",2+2 #Do not forget to put COMMA
 
 print "10/3 = ", 10/3   #prints 3 
 print "10/3 = ", 10/3.0 #prints 3.33333333333
-print 2**3 #prints 8
+print 2**3  	#prints 8
+print 16**0.5   #prints 4
 
 x = 5.2
 y = 3.7
