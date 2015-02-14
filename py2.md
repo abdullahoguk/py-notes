@@ -80,7 +80,7 @@ os.system("echo 'print via Bash'") #prints in cli via bash
 #os.system("sudo apt-get update") #update repos
 
 
-#_________________DATETIME____________
+#_____________________DATETIME_________________
 today = datetime.date.today()
 print "today is", today
 
