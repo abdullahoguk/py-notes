@@ -1,5 +1,5 @@
 # py-notes
 #BASICS
-''' #!usr/bin/python
+``` #!usr/bin/python
 #This is single line comment
-print"This prints on screen" '''
+print"This prints on screen" ```
