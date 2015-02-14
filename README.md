@@ -1,6 +1,6 @@
 #BASICS
-for comments `#  
-to print on screen `print" "**  
+for comments `#    
+to print on screen `print" "     
 aritmetic operations `+,-,*,/,%   
 ```
 #!usr/bin/python
