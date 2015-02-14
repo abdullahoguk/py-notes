@@ -37,7 +37,8 @@ print c[4] + c[0] #prints ga (starts from 0)
 print c[1:5]      #prints from index 1 to 5 (sdfg)
 print c[:3]  	  #prints asd (starts from 0 by default)
 print c[2:]		  #prints dfghjkl (ends with end of string by default)
-
+print len(c) 		#prints 9
+print len("github") #prints 6
 
 
 #_______________TIME MODULE_________________
@@ -52,4 +53,8 @@ while x<=10:
 	time.sleep(1)
 
 
+#_____________RANGE_______________
+print range(15) 	 #prints numbers from 0 to 15
+print range (7,53)   #prints numbers from 7 to 53
+print range (7,53,3)
 
