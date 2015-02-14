@@ -1,7 +1,7 @@
 #BASICS
 **for comments** #   
-**to print on screen** print" " 
-**aritmetic operations** +,-,*,/,% 
+**to print on screen** print" "   
+**aritmetic operations** +,-,*,/,%  
 ```
 #!usr/bin/python
 #This is Comment!!
