@@ -1,7 +1,7 @@
 ##BASICS
 1. for comments `#`      
 2. to print on screen `print" "`     
-3. aritmetic operations `+,-,*,/,%`   
+3. aritmetic operations `+,-,*,/,%,**`   
 4. to create variable, just type name of var `x=3 y=2.7`      
 5. to create  strng type name of string  `a="strr"`   
 6. to print string more than once  `print a*8`   
@@ -36,6 +36,7 @@ print "2+2 = ",2+2 #Do not forget to put COMMA
 
 print "10/3 = ", 10/3   #prints 3 
 print "10/3 = ", 10/3.0 #prints 3.33333333333
+print 2**3 #prints 8
 
 x = 5.2
 y = 3.7
