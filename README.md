@@ -1,7 +1,13 @@
-# py-notes
 #BASICS
+**for comments** #
+**to print on screen** print""
+**aritmetic operations** +,-,*,/,%
 ```
 #!usr/bin/python
-#This is single line comment
-print"This prints on screen" 
+#This is Comment!!
+print"Helloooo!!!"
+
+print 2+2   #prints 4
+print "2+2" #prints 2+2
+print "2+2 =",2+2
 ```
