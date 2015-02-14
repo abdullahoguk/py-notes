@@ -3,7 +3,7 @@
 2. to print on screen `print" "`     
 3. aritmetic operations `+,-,*,/,%,**`   
 4. to create variable, just type name of var `x=3 y=2.7`      
-5. to create  strng type name of string  `a="strr"`   
+5. to create  string type name of string  `a="strr"`   
 6. to print string more than once  `print a*8`   
 7. to combine two strings, add + between them `print a+b`
 8. to get any char from a string at index `x c[x]`
@@ -14,9 +14,7 @@
 ```
 print range(15)
 print range (start,end,increase quantity 1 by default)
-
 ```
-
 
 
 
