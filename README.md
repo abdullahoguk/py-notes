@@ -11,3 +11,9 @@
 3. For loop
 4. Calling system command
 5. Date and time ops
+
+#py2.md
+1. 
+2. 
+3. 
+4. 
