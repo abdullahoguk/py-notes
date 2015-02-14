@@ -1,5 +1,5 @@
 #BASICS
-for comments `#    
+for comments `#      
 to print on screen `print" "     
 aritmetic operations `+,-,*,/,%   
 ```
