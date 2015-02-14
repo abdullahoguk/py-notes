@@ -1,6 +1,6 @@
 ##BASICS-2
 
-1. to create while loop    
+* to create while loop    
 ```
 while a_logical_op:
 	type ops that 
@@ -8,7 +8,7 @@ while a_logical_op:
 	each turn
 	as intended
 ```
-2. Logical Ops
+* Logical Ops
 ```
 == : equals
 != : not equal
@@ -17,7 +17,7 @@ while a_logical_op:
 >= :greater and equal
 <= :smaller and equal
 ```
-3. to create for loop
+* to create for loop
 ```
 for y in range(start,end,amout of increasing):
 	type ops that 
@@ -26,8 +26,8 @@ for y in range(start,end,amout of increasing):
 	as intended
 
 ```
-4. to call a command from system, import os then `os.system("COMMAND")`   
-5. Date Time, import datetime 
+* to call a command from system, import os then `os.system("COMMAND")`   
+* Date Time, import datetime 
 	* to get todays date `datetime.date.today()`
 	* to get tomorrow 
 
