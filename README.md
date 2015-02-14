@@ -2,7 +2,7 @@
 for comments `#`      
 to print on screen `print" "`     
 aritmetic operations `+,-,*,/,%`   
-to create variable, just type name of var `x=3`   
+to create variable, just type name of var `x=3 y=2.7`   
 
 
 
