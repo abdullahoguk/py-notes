@@ -52,7 +52,3 @@ print "Eid al Fitr is ",fitr
 left=fitr-today
 print left,"left to Eid al Fitr"
 
-
-
-
-
