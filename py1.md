@@ -14,7 +14,9 @@
 ```
 print range(15)
 print range (start,end,increase quantity 1 by default)
+
 ```
+
 
 
 
@@ -64,6 +66,12 @@ print c[2:]		  #prints dfghjkl (ends with end of string by default)
 
 print len(c) 		#prints 9
 print len("github") #prints 6
+
+d = str(21) #d is string now
+print "It is " + d 
+
+e = 65
+print"asa"+ `e`   #converts e to string
 
 
 #_______________TIME MODULE_________________
