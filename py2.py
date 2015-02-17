@@ -30,13 +30,13 @@ for y in range(1,17,3):
 
 
 
-#_________________CALLING SYS COMMAND______________
+#___________________CALLING SYS COMMAND____________
 print "print via python"
 os.system("echo 'print via Bash'") #prints in cli via bash
 #os.system("sudo apt-get update") #update repos
 
 
-#_______________DATETIME_______________
+#_________________DATETIME____________
 today = datetime.date.today()
 print "today is", today
 
