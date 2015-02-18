@@ -1,52 +1,3 @@
-##BASICS-3
-* **to get input from user** 
-```
-in1=input("Write Number: ") #Get Number
-in2=raw_input("Write something: ") #Get String
-in3 = int(raw_input("Enter a number: ")) #gets number also
-```   
-   
-* **Type Casting**
-	* String to Integer   
-	```
-	a = "13"   
-	b = int(a)   
-	```   
-	* Integer to String   
-		* `a = str(21)`   
-		* `b = 14`    
-		  ``b``   
-		* `c = "14"`   
-	* Integer to Float	 
-	`f = 15`
-	`g = float(f)`   
-   
-* Conditional statements	
-	* **If-Elif-Else** 
-	```
-	if logical_exp:
-		things to    
-		do if exp   
-		is true   
-	    as intended  
-
-	elif logical_exp:
-		things to    
-		do if exp    
-		is true    
-	    as intended   
-	else:
-		things to   
-		do if exp    
-		is false    
-	    as intended           
-	```
-   
-   
-
-
-**CODE**
-```
 #!usr/bin/python
 
 
@@ -93,4 +44,7 @@ elif in3<99:
 	#print "You get it Wrong!!!"
 
 
-```	
+
+
+
+
