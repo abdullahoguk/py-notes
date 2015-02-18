@@ -11,13 +11,16 @@
 10. Pause amount of time, import time and type `time.sleep(5)`   
 11. to get legth of string  `len(a)`
 12. to print numbers in any range 
+13. **In**   
+	```
+	a = "tardis"
+	c = 'e' in a #if there is a in tardis returns true 
+	``` 
 ```
 print range(15)
 print range (start,end,increase quantity 1 by default)
 
 ```
-
-
 
 
 **CODE**
@@ -71,7 +74,7 @@ d = str(21) #d is string now
 print "It is " + d 
 
 e = 65
-print"asa"+ `e`   #converts e to string
+print"asa" + `e`   #converts e to string
 
 
 #_______________TIME MODULE_________________
