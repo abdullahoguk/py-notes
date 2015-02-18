@@ -1,17 +1,23 @@
-#py1.md
+#[py1.md](https://github.com/abdullahoguk/py-notes/blob/master/py1.md)
 1. Print
 2. Arithmetic Ops
 3. Strings
 4. Time Module
 5. Range
 
-#py2.md
+#[py2.md](https://github.com/abdullahoguk/py-notes/blob/master/py2.md)
 1. While Loop
 2. Logical Ops
 3. For loop
 4. Calling system command
 5. Date and time ops
 
-#py3.md
+#[py3.md](https://github.com/abdullahoguk/py-notes/blob/master/py3.md)
+1. Getting input
+2. Type Casting
+3. if - elif - else
+
+#[py4.md](https://github.com/abdullahoguk/py-notes/blob/master/py4.md)
 1. 
 2. 
+3. 
