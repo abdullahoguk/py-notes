@@ -1,6 +1,6 @@
 ##BASICS-2
 
-* to create while loop    
+* **While Loop**    
 ```
 while a_logical_op:
 	type ops that 
@@ -8,7 +8,8 @@ while a_logical_op:
 	each turn
 	as intended
 ```
-* Logical Ops
+
+* **Logical Ops**
 ```
 == : equals
 != : not equal
@@ -17,7 +18,7 @@ while a_logical_op:
 >= :greater and equal
 <= :smaller and equal
 ```
-* to create for loop
+* **For Loop**
 ```
 for y in range(start,end,amout of increasing):
 	type ops that 
@@ -25,9 +26,17 @@ for y in range(start,end,amout of increasing):
 	each turn
 	as intended
 
-```
-* to call a command from system, import os then `os.system("COMMAND")`   
-* Date Time, import datetime 
+```   
+* **Break**
+Stops loop. Using with if statements.   
+
+* **Continue**
+Stops current turn(skip ops below continue) and go to next turn   
+* **To call a command from system** 
+import os then `os.system("COMMAND")`     
+
+* **Date Time**    
+import datetime 
 	* to get todays date `datetime.date.today()`
 	* to get tomorrow 
 
