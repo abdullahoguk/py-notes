@@ -18,5 +18,6 @@
 3. if - elif - else
 
 #[py4.md](https://github.com/abdullahoguk/py-notes/blob/master/py4.md)
-1. 
-2. 
+1. Lists
+2. Tuples
+3. 
