@@ -12,10 +12,12 @@
 4. Calling system command
 5. Date and time ops
 
-#py3.md
+#[py3.md](https://github.com/abdullahoguk/py-notes/blob/master/py3.md)
+1. Getting input
+2. Type Casting
+3. if - elif - else
+
+#[py4.md](https://github.com/abdullahoguk/py-notes/blob/master/py4.md)
 1. 
 2. 
 3. 
-4. 
- 
-
