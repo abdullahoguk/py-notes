@@ -4,6 +4,9 @@
 3. Strings
 4. Time Module
 5. Range
+6. In
+7. type()
+
 
 #[py2.md](https://github.com/abdullahoguk/py-notes/blob/master/py2.md)
 1. While Loop
@@ -18,6 +21,6 @@
 3. if - elif - else
 
 #[py4.md](https://github.com/abdullahoguk/py-notes/blob/master/py4.md)
-1. 
-2. 
+1. Lists
+2. Tuples
 3. 
