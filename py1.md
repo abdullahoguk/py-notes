@@ -34,7 +34,7 @@ import time
 print"Helloooo!"
 
 
-#__________ARITHMETIC OPs_________________________________
+#_______________ARITHMETIC OPs___________________________
 
 print 2+2   #prints 4 
 print "2+2" #prints 2+2
@@ -52,7 +52,7 @@ print x+y   #prints 8.9
 print z		#prints 8.9
 
 
-#__________STRINGS__________________________________
+#____________STRINGS__________________________________
 
 
 
