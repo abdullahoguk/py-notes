@@ -16,8 +16,53 @@
 	* to sort list alphabeticly `list_name.sort()`   
 	* to reverse elements' index `list_name.reverse()`
 	* to get how many times an element in the list `list_name.count(elemet)`
- 
+    
+
+       
 **CODE**
 ```
+#!usr/bin/python
+
+#___________________LISTS___________________
+bCities=["Istanbul",34,"Ankara",06,"Izmir",35]
+
+print bCities
+print "There are ",len(bCities)," elements in the list"
+
+bCities.append("Bursa")
+bCities.append(16)
+
+print "Bursa added", bCities
+print bCities[0],bCities[2],bCities[4],bCities[6]
+print "Last element is ", bCities[-1]
+
+bCities.insert(2,"Ordu")
+bCities.insert(3,52)
+print "Ordu inserted",bCities
+
+bCities2 = ["Manisa",45,"Rize",53]
+
+print "Cities 2 is ", bCities2
+bCities.extend(bCities2)
+print "Cities extended with Cities 2 ",bCities
+
+last1 = bCities.pop()
+last2 = bCities.pop()
+print "The last 2 element is ",last2, "and" , last1 ,", and they are removed "
+print bCities
+
+print "Ordu is in index ", bCities.index("Ordu") 
+
+bCities.sort()
+print "Sorted list is ", bCities
+
+bCities.reverse()
+print "Reversed list is ", bCities
+
+bCities.append("Ankara")
+print "Ankara is ", bCities.count("Ankara"), " times in the list"
+print bCities
+
+#___________________TUPLES____________________
 
 ```
