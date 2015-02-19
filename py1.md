@@ -6,21 +6,24 @@
 5. to create  string type name of string  `a="strr"`   
 6. to print string more than once  `print a*8`   
 7. to combine two strings, add + between them `print a+b`
-8. to get any char from a string at index `x c[x]`
+8. to get any char from a string at index `strName[index]`
 9. to import a module type `import module_name` to top    
 10. Pause amount of time, import time and type `time.sleep(5)`   
 11. to get legth of string  `len(a)`
-12. to print numbers in any range 
-13. **In**   
+12. to print numbers in any range    
+```   
+print range(15)
+print range (start,end,increase quantity 1 by default)
+```   
+   
+13. **In**    
 	```
 	a = "tardis"
 	c = 'e' in a #if there is a in tardis returns true 
-	``` 
-```
-print range(15)
-print range (start,end,increase quantity 1 by default)
-
-```
+	```    
+14. Type function returns type of its input
+`type("asdfg")` returns str   
+`type(54)` returns int
 
 
 **CODE**
