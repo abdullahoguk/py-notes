@@ -23,4 +23,7 @@
 #[py4.md](https://github.com/abdullahoguk/py-notes/blob/master/py4.md)
 1. Lists
 2. Tuples
-3. 
+3. Dictionary
+4. Ordereddict   
+
+#[py5.md](https://github.com/abdullahoguk/py-notes/blob/master/py5.md)
