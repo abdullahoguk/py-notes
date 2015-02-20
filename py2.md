@@ -8,15 +8,18 @@ while a_logical_op:
 	each turn
 	as intended
 ```
+* In python, ':' should be followed by indentation.(for,while,if, elif, else...)  
 
 * **Logical Ops**
 ```
-== : equals
-!= : not equal
->  : greater
-<  : smaller
->= :greater and equal
-<= :smaller and equal
+==  : equals
+!=  : not equal
+>   : greater
+<   : smaller
+>=  :greater and equal
+<=  :smaller and equal
+and :logical and
+or  :logical or
 ```
 * **For Loop**
 ```
