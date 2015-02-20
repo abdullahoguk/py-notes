@@ -1,5 +1,6 @@
-##BASICS
-1. for comments `#`      
+##BASICS-1
+1. for one line comments `#comment`   
+   for multi-line comments `""" comment"""`       
 2. to print on screen `print" "`     
 3. aritmetic operations `+,-,*,/,%,**`   
 4. to create variable, just type name of var `x=3 y=2.7`      
