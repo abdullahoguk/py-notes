@@ -1,5 +1,12 @@
 #!usr/bin/python
 #This is Comment!!!
+"""
+This 
+is
+also
+comment 
+"""
+
 import time
 print"Helloooo!"
 
