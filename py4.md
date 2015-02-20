@@ -1,5 +1,5 @@
-##BASICS
-* Lists 
+##BASICS-4
+* **Lists** 
 	* to create list `list_name [e1,e2,...]`    
 	* `len()` can be used for getting how many elements in the list    
 	* to append an elemnet(just one) to list `list_name.append(element)`
@@ -15,10 +15,36 @@
 	* to find index of any element `list_name.index(element)`   
 	* to sort list alphabeticly `list_name.sort()`   
 	* to reverse elements' index `list_name.reverse()`
-	* to get how many times an element in the list `list_name.count(elemet)`
+	* to get how many times an element in the list `list_name.count(elemet)`   
+   
+* **Tuples**
+	* tuple is like list, but you can't perform an operation like sorting,removing, adding,inserting...
+	* to create a tuple     
+	`tup = "pyt", "java", 1, 25`      
+	or        
+	`tup = ("pyt", "java", 1, 25)`      
+	* to create empty tuple `tup = ()`   
+	* to create tuple tat has 1 element `tup = ("element",)`   
+	* to get element in tuple  `tuple_name[index]`   
+	* to unpack tuple `variables as much as tuples length = tuple_name`      
+	eg : if there is 3 element in the tuple `el1, el2, el3 = tuple_name`   
+   
+* **Dicts**
+	* Dicts includes key and values
+	* to create a dict `dict_name{"key1" : "value1", "key2" : "value2" ...}`
+	* to get an element with any key `dict_name["key"]`    
+	* Small numbers can be written without quotation mark (shouldn't start with 0)        
+ 	* to delete an element `del dict_name["key"]`   
+ 	* to remove all elements `dict_name.clear()`
+ 	* to get all keys `dict_name.keys()`
+ 	* to get all values `dict_name.values()`    
     
+* **OrderedDict**
+	* Normal dicts are not sorted by adding order
+	* to use OrderedDict we should import from collections `from collections import OrderedDict`   
+	* to create a dict `dict_name = OrderedDict([("key1", "value1"),("key2", "value2"), ("key3", "value3", ...)])`
+	* to add element `dict_name["key"] = "value"`   
 
-       
 **CODE**
 ```
 #!usr/bin/python
