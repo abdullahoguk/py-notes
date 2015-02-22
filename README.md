@@ -27,3 +27,7 @@
 4. Ordereddict   
 
 #[py5.md](https://github.com/abdullahoguk/py-notes/blob/master/py5.md)
+1. Functions
+2. Modules
+3. os module
+4. 
