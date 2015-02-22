@@ -74,7 +74,7 @@ print "16 is licence plate of ",dict1[16]
 
 print "Keys are ", dict1.keys()
 print "Values are ", dict1.values()
-
+print "All items are ",dict1.items()
 
 del dict1[16]
 print "16 : Bursa removed "
