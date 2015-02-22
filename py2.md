@@ -38,6 +38,7 @@ Stops current turn(skip ops below continue) and go to next turn
 * **To call a command from system** 
 import os then `os.system("COMMAND")`     
 
+* `pass` can be used as break   
 * **Date Time**    
 import datetime 
 	* to get todays date `datetime.date.today()`
