@@ -37,7 +37,8 @@
  	* to delete an element `del dict_name["key"]`   
  	* to remove all elements `dict_name.clear()`
  	* to get all keys `dict_name.keys()`
- 	* to get all values `dict_name.values()`    
+ 	* to get all values `dict_name.values()`
+ 	* to get all elements `dict_name.items()`    
     
 * **OrderedDict**
 	* Normal dicts are not sorted by adding order
@@ -48,6 +49,8 @@
 **CODE**
 ```
 #!usr/bin/python
+from collections import OrderedDict
+
 
 #___________________LISTS___________________
 bCities=["Istanbul",34,"Ankara",06,"Izmir",35]
@@ -91,4 +94,62 @@ print bCities
 
 #___________________TUPLES____________________
 
+tup1 = 1,5,13,"number"
+tup2 = ("a","b","c")
+tup3 = ("x",) 
+tup4 = ("y") #not tuple
+print "tup1 is a ",type(tup1)
+print "tup2 is a ",type(tup2)
+print "tup3 is a ",type(tup3)
+print "tup4 is a ",type(tup4)
+
+print tup1[1], "is in tup1's index 1"
+
+a, b, c, d = tup1 #unpack tuple 
+print a, b, c, d
+print tup1
+
+
+#___________________DICTS____________________
+
+dict1 = {"06":"Ankara", 34:"Istanbul", 35:"Izmir", 52:"Ordu", 16:"Bursa"} #Nubers is the Licence plates of cities
+print "dict 1 is a ", type(dict1)
+print dict1
+print "06 is licence plate of ",dict1["06"]
+print "34 is licence plate of ",dict1[34]
+print "35 is licence plate of ",dict1[35]
+print "52 is licence plate of ",dict1[52]
+print "16 is licence plate of ",dict1[16]
+
+
+print "Keys are ", dict1.keys()
+print "Values are ", dict1.values()
+
+
+del dict1[16]
+print "16 : Bursa removed "
+print dict1
+
+print dict1.get(16,"This element is not exist")
+print dict1.get("06","This element is not exist")
+
+dict1.clear()
+print "All elements removed"
+print dict1
+
+
+#__________________ORDEREDDICTS____________________
+
+oDict = OrderedDict([("01", "Adana"),("02", "Adiyaman"), ("03", "Afyon")])
+print oDict
+
+oDict["04"] = "Agri"
+oDict["05"] = "Amasya"
+print oDict
+
+print "Keys are ", oDict.keys()
+print "Values are ", oDict.values()
+
+print oDict.get(16,"This element is not exist")
+print oDict.get("05","This element is not exist")
 ```
