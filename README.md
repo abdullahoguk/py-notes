@@ -29,5 +29,12 @@
 #[py5.md](https://github.com/abdullahoguk/py-notes/blob/master/py5.md)
 1. Functions
 2. Modules
-3. os module
+3. os Module
+4. Files
+5. Exception Handling
+
+#[py6.md](https://github.com/abdullahoguk/py-notes/blob/master/py6.md)
+1. 
+2. 
+3. 
 4. 
