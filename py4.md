@@ -8,8 +8,8 @@
 	  to get Last element `list_name[-1]`   
 	* to insert an elemnet(just one) to list `list_name.insert(insert_index , element)`  
 	* to extend or combine two list `list_name.extend(append_list_name)`     
-	this command is same with `list_name = list_name + append_list_name)`   
-	* to remove an element from the list `list_name.remove(elment)` 
+		this command is same with `list_name = list_name + append_list_name)`   
+	* to remove an element from the list `list_name.remove(element)` or `del list_name[2]`
 	* to pop an element `list_name.pop()` this method return last element and removes it.   
 	  Also can be used as `list_name.pop(index)` to pop from any index.
 	* to find index of any element `list_name.index(element)`   
@@ -53,6 +53,8 @@ from collections import OrderedDict
 
 
 #___________________LISTS___________________
+print "#___________________LISTS___________________"
+
 bCities=["Istanbul",34,"Ankara",06,"Izmir",35]
 
 print bCities
@@ -91,9 +93,11 @@ print "Reversed list is ", bCities
 bCities.append("Ankara")
 print "Ankara is ", bCities.count("Ankara"), " times in the list"
 print bCities
+#TODO use for to iterate list
+
 
 #___________________TUPLES____________________
-
+print "___________________TUPLES____________________"
 tup1 = 1,5,13,"number"
 tup2 = ("a","b","c")
 tup3 = ("x",) 
@@ -111,6 +115,7 @@ print tup1
 
 
 #___________________DICTS____________________
+print "___________________DICTS____________________"
 
 dict1 = {"06":"Ankara", 34:"Istanbul", 35:"Izmir", 52:"Ordu", 16:"Bursa"} #Nubers is the Licence plates of cities
 print "dict 1 is a ", type(dict1)
@@ -124,14 +129,14 @@ print "16 is licence plate of ",dict1[16]
 
 print "Keys are ", dict1.keys()
 print "Values are ", dict1.values()
-
+print "All items are ",dict1.items()
 
 del dict1[16]
 print "16 : Bursa removed "
 print dict1
 
-print dict1.get(16,"This element is not exist")
-print dict1.get("06","This element is not exist")
+print dict1.get(16,"This element do not exist")
+print dict1.get("06","This element do not exist")
 
 dict1.clear()
 print "All elements removed"
@@ -139,7 +144,7 @@ print dict1
 
 
 #__________________ORDEREDDICTS____________________
-
+print "__________________ORDEREDDICTS____________________"
 oDict = OrderedDict([("01", "Adana"),("02", "Adiyaman"), ("03", "Afyon")])
 print oDict
 
@@ -150,6 +155,6 @@ print oDict
 print "Keys are ", oDict.keys()
 print "Values are ", oDict.values()
 
-print oDict.get(16,"This element is not exist")
-print oDict.get("05","This element is not exist")
+print oDict.get(16,"This element do not exist")
+print oDict.get("05","This element do not exist")
 ```
