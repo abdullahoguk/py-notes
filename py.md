@@ -31,7 +31,7 @@
 5. Exception Handling
 
 #[py6.md](https://github.com/abdullahoguk/py-notes/blob/master/py6.md)
-1. 
+1. String Methods
 2. 
 3. 
 4. 
