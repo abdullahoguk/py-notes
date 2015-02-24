@@ -21,7 +21,7 @@
 	* to import module
 		* `import module_name`
 			to call a function `module_name.func_name()` 
-		* `from modül_adı import *`	
+		* `from module_name import *`	
 			to call a function `func_name()`
 		* `from module_name import func_name1, func_name2, var1, ...`    
 			to call a function `func_name()`
