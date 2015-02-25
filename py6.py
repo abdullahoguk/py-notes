@@ -7,4 +7,4 @@ kaynak= "defghijklmnoprstuvyzabc"
 hedef = "abcdefghijklmnoprstuvyz"
 cevir = string.maketrans(kaynak,hedef)
 sonuc = metin.translate(cevir)
-print soncevir
+print sonuc
