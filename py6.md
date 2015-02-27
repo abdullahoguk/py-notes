@@ -42,4 +42,4 @@
 	* `rstrip()` delete spaces and new lines from just end of the string
 	* `lstrip()` delete spaces and new lines from just beginning of the string
 	* `str = u"ğüşç"` creating a unicode str. If your string contains, unicode character, string methods does not work correctly it str did not created as unicode.
-	* 
+	
