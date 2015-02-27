@@ -37,3 +37,9 @@
 1. String Methods
 2. 
 3. 
+
+#[py7.md](https://github.com/abdullahoguk/py-notes/blob/master/py7.md)
+1. 
+2.  
+3. 
+
