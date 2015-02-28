@@ -32,6 +32,9 @@
 
 #[py6.md](https://github.com/abdullahoguk/py-notes/blob/master/py6.md)
 1. String Methods
+
+#[py7.md](https://github.com/abdullahoguk/py-notes/blob/master/py7.md)
+1. Regular Expressions
 2. 
 3. 
  
