@@ -11,7 +11,7 @@
 			`re.match("[A-Z][0-9][A-Z]",str)` if str starts with a capital letter followed by a number then a capital letter again, returns object.   
 		* **.** represent all charaters except new line. just one char   
 			`re.match(".ail",str)` if str starts with any char followed by "ail", returns object.
-		* *** (Kleene star) the preceding char can repeat 0 or more times 
+		* *\** (Kleene star) the preceding char can repeat 0 or more times 
 			`re.match("hello*",str)` if str starts with "hell" or "hello" or "helooo"..., returns object.   
 			`re.match(".*body", str)` any str ends with "body" will be returned.  
 		* **+** pretty same with Kleene star, but the preceding should repeat at least one time.
