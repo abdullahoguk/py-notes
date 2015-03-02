@@ -22,3 +22,6 @@ print re.search("best", a).group() #returns "best"
 
 #findall method
 print re.findall("e", a) #returns all e's in string
+
+
+
