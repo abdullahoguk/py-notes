@@ -16,7 +16,7 @@
 			`re.match(".*body", str)` any str ends with "body" will be returned.  
 		* **+** pretty same with Kleene star, but the preceding should repeat at least one time.
 		* **?** pretty same with * and +, but the preceding should repeat just 0 or 1 times.
-		* **{}** the preceding char's repetition times defined insid curly brackets
+		* **{}** the preceding char's repetition times defined inside curly brackets
 			`re.match("hello{5}",str)` 'o' repeat 5 times. Returns object when str starts with 'hellooooo'   
 			`re.match("hello{1,4}",str)` 'o' repeat at least 1, at most 4 times.   
 		* **^** starts with...
@@ -27,6 +27,15 @@
 		* `\` escape character
 		* **|** or    
 		`re.search("^fa|ce$",str)` returns object if str starts with fa or ends with ce
-		* 
-
+		* **group()**
+			```
+			a = "python bir programlama dilidir"
+			obj = re.search("(python) (is a) (programming) (language)", a)
+			print obj.group()  #output "python is a programming language"
+			print obj.group(0) #output "python is a programming language"
+			print obj.group(1) #output "python"
+			print obj.group(2) #output "is a"
+			print obj.group(3) #output "programming"
+			print obj.group(4) #output "language"
+			```
 
