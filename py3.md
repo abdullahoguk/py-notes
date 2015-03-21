@@ -1,6 +1,6 @@
 ##BASICS-3
 * **to get input from user** 
-```
+```python
 in1=input("Write Number: ") #Get Number
 in2=raw_input("Write something: ") #Get String
 in3 = int(raw_input("Enter a number: ")) #gets number also
@@ -8,7 +8,7 @@ in3 = int(raw_input("Enter a number: ")) #gets number also
    
 * **Type Casting**
 	* String to Integer   
-	```
+	```python
 	a = "13"   
 	b = int(a)   
 	```   
@@ -23,7 +23,7 @@ in3 = int(raw_input("Enter a number: ")) #gets number also
    
 * Conditional statements	
 	* **If-Elif-Else** 
-	```
+	```python
 	if logical_exp:
 		things to    
 		do if exp   
@@ -46,7 +46,7 @@ in3 = int(raw_input("Enter a number: ")) #gets number also
 
 
 **CODE**
-```
+```python
 #!usr/bin/python
 
 

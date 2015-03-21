@@ -47,7 +47,7 @@
 	* to add element `dict_name["key"] = "value"`   
 
 **CODE**
-```
+```python
 #!usr/bin/python
 from collections import OrderedDict
 

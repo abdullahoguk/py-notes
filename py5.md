@@ -1,7 +1,7 @@
 ##BASICS-5
 * **Functions**
 	* to define a function 
-	```
+	```python
 	def function_name():
 		function
 		body
@@ -59,7 +59,7 @@
  	   
  	* Read file
  		*    
- 		```
+ 		```python
  		readfile = open("test.txt", "r")
 		print readfile.read()
 		```   
@@ -74,7 +74,7 @@
 		os.remove("/file/dir")`
 
 	* to insert line to file
-		```
+		```python
 		readfile = open("test.xml")
 		inserted_line = '<Fierce name="Item2.5" separator="," src="myfile25.csv" />'
 		filecontent = readfile.readlines() #this line copy all content to filecontent list 
@@ -87,7 +87,7 @@
    
 * **Exception Handling**
 	* to handle exception (try ... except ...)
-	```
+	```python
 	try:
 		ops 
 		to try
@@ -100,7 +100,7 @@
 		as intended
 	```   
 	* Multiple except blocks can be used.
-	```
+	```python
 	try:
 		...
 		...
@@ -112,12 +112,12 @@
 		...
 	```
 	* Multiple errors can be used in one except block.   
-	```   
+	```python   
 	except (Error_Name1, Error_Name2):
 		...
 	```   
 	* pass can be used to pass when error occurs
-	```
+	```python
 	try:
 		...
 	except Error_Name:
@@ -128,7 +128,7 @@
 
 
 **CODE**
-```
+```python
 #!usr/bin/python
 
 import os

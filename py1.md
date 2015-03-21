@@ -12,13 +12,13 @@
 10. Pause amount of time, import time and type `time.sleep(5)`   
 11. to get legth of string  `len(a)`
 12. to print numbers in any range    
-```   
+```python   
 print range(15)
 print range (start,end,increase quantity 1 by default)
 ```   
    
 13. **In**    
-	```
+	```python
 	a = "tardis"
 	c = 'e' in a #if there is a in tardis returns true 
 	```    
@@ -28,7 +28,7 @@ print range (start,end,increase quantity 1 by default)
 
 
 **CODE**
-```
+```python
 #!usr/bin/python
 #This is Comment!!!
 import time

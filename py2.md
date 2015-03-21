@@ -1,7 +1,7 @@
 ##BASICS-2
 
 * **While Loop**    
-```
+```python
 while a_logical_op:
 	type ops that 
 	have done in
@@ -22,7 +22,7 @@ and :logical and
 or  :logical or
 ```
 * **For Loop**
-```
+```python
 for y in range(start,end,amout of increasing):
 	type ops that 
 	have done in
@@ -44,7 +44,7 @@ import datetime
 	* to get todays date `datetime.date.today()`
 	* to get tomorrow 
 
-	```
+	```python
 	today = datetime.date.today()
  	temp=datetime.timedelta(days=1)
  	today+temp #returns tomorrow
@@ -56,7 +56,7 @@ import datetime
     
 
 **CODE**
-```
+```python
 #!usr/bin/python
 import os
 import datetime
