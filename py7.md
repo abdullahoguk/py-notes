@@ -39,3 +39,20 @@
 			print obj.group(4) #output "language"
 			```
 
+		* `\s` means space. 
+			```
+			a = ["5 Jan", "27Apr", "4 July", "Dec 3"]
+			for i in a:
+				nesne = re.search("[0-9]\\s[A-Za-z]+",i)
+				if nesne:
+					print nesne.group()
+			```   
+			prints 5 jan and 4 july
+
+		* `\d` (Numeric values) can be used instead of [0-9] above.
+		* `\w` (Alphanum characters and '_' char) can be used instead of [A-Za-z0-9_].   
+
+		* Upper case of these letters above is inverse of them   
+		 	`\S` represents all chars except space       
+		 	`\D` represents all chars except numbers    
+		 	`\W` represents all chars except numbers letters and '_'
